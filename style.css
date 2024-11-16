@@ -70,9 +70,8 @@ body{
 }
 
 .card__header-info p{
-    font-weight: 400;
     padding: 1rem;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--slate-500)
 }
