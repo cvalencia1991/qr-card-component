@@ -71,7 +71,9 @@ body{
 
 .card__header-info p{
     padding: 1rem;
+    font-weight 400;
     text-align: center;
     font-size: 1rem;
-    color: var(--slate-500)
+    color: var(--slate-500);
+    word-spacing: 0.013rem;
 }
