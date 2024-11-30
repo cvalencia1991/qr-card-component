@@ -1,3 +1,10 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-200: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
 @font-face {
     font-family: 'Outfit';
     src: url('./fonts/Outfit-Regular.ttf') format('truetype');
@@ -12,16 +19,13 @@
     font-style: normal;
 }
 
-:root {
-    --white: hsl(0, 0%, 100%);
-    --slate-200: hsl(212, 45%, 89%);
-    --slate-500: hsl(216, 15%, 48%);
-    --slate-900: hsl(218, 44%, 22%);
-}
 
-*{
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
+    box-sizing:inherit;
 }
 
 html{
@@ -70,7 +74,7 @@ body{
 }
 
 .card__header-info p{
-    padding: 1rem;
+    padding: 1rem 2rem;
     font-weight 400;
     text-align: center;
     font-size: 1rem;
